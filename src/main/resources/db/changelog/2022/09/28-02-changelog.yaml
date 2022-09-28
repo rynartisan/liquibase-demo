@@ -1,0 +1,23 @@
+databaseChangeLog:
+  # Each changeSet must have a unique id,author per changelog file.
+  - changeSet:
+      id: "1"
+      author: raaltamimi
+      changes:
+        - createTable:
+            tableName: book
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: nvarchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: isbn
+                  type: nvarchar(50)
