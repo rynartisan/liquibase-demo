@@ -87,7 +87,7 @@
                 <configuration>
                     <changeLogFile>src/main/resources/db/changelog/db.changelog-master.yaml</changeLogFile>
                     <outputChangeLogFile>
-                        src/main/resources/db/changelog/db.changelog-master-${maven.build.timestamp}.yaml
+                        src/main/resources/db/changelog/2022/09/28-04-changelog.yaml
                     </outputChangeLogFile>
                     <driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
                     <url>jdbc:sqlserver://localhost;DatabaseName=liquibase;encrypt=true;trustServerCertificate=true;
