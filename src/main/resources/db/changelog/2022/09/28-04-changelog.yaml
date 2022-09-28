@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: "1"
+      author: raaltamimi
+      changes:
+        - createProcedure:
+            path: db/changelog/sp/usp_book_authors.sql
+            procedureText:
+            procedureName: usp_book_authors
