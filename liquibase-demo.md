@@ -1,15 +1,3 @@
-# Database Migrations
-
-## What's the use of migrations?
-* Code changes and database changes are deployed together and always compatible.
-* You can track the history of database changes.
-
-## Liquibase
-* Changelog-master.yaml
-* Changelogs.
-* Change set.
-* changelog and lock tables.
-
 # Database Migration with Liquibase
 ### What is database migration?
 * A system used to track and manage the database schema changes.
