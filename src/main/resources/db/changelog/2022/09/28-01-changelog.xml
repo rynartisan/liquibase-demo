@@ -25,6 +25,9 @@
             <column name="last_name" type="nvarchar(50)">
                 <constraints nullable="false"/>
             </column>
+            <column name="created_at" defaultValue="GETDATE()" type="datetime">
+                <constraints nullable="false"/>
+            </column>
         </createTable>
     </changeSet>
 </databaseChangeLog>
