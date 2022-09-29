@@ -7,3 +7,7 @@ databaseChangeLog:
       file: db/changelog/2022/09/28-03-changelog.yaml
   - include:
       file: db/changelog/2022/09/28-04-changelog.yaml
+  - include:
+      file: db/changelog/2022/09/28-05-changelog.json
+  - include:
+      file: db/changelog/2022/09/28-06-changelog.sql

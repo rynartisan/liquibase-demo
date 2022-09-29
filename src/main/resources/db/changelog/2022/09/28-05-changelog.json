@@ -1,0 +1,31 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "1",
+        "author": "raaltamimi",
+        "changes": [
+          {
+            "insert": {
+              "tableName": "book",
+              "columns": [
+                {
+                  "column": {
+                    "name": "name",
+                    "value": "Guide to Liquibase"
+                  }
+                },
+                {
+                  "column": {
+                    "name": "isbn",
+                    "value": "978-3-16-148410-0"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
