@@ -1,7 +1,3 @@
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
 -- =============================================
 -- Author:		raaltamimi
 -- Create date: 2022-09-28
@@ -23,4 +19,3 @@ BEGIN
              LEFT JOIN author a on a.id = ba.author_id
     WHERE book.isbn = @isbn
 END
-GO

@@ -7,3 +7,6 @@ databaseChangeLog:
             path: db/changelog/sp/usp_book_authors.sql
             procedureText:
             procedureName: usp_book_authors
+      rollback:
+        - dropProcedure:
+            procedureName: usp_book_authors
